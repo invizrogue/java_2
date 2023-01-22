@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+group 'study.qa'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
