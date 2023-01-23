@@ -1,12 +1,13 @@
-package study.qa.cards;
+package study.qa.lessonoop.cards;
 
-import study.qa.cards.data.*;
-
-import static study.qa.cards.data.Country.*;
+import study.qa.lessonoop.cards.data.*;
+import study.qa.lessonoop.cards.data.Card;
+import study.qa.lessonoop.cards.data.Country;
+import study.qa.lessonoop.cards.data.MirCard;
 
 public class Main {
     public static void main(String[] args) {
-        invoke(new MirCard(), US);
+        invoke(new MirCard(), Country.RU);
     }
 
     public static void invoke(Card card, Country country) { // Полиморфный метод - работает без изменения кода для разных объектов (в данном случае, для разных типов карт)

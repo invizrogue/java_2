@@ -1,4 +1,4 @@
-package study.qa.cards.data;
+package study.qa.lessonoop.cards.data;
 
 public class MirCard extends Card implements ICard {
 

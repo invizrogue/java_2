@@ -1,4 +1,4 @@
-package study.qa.cards.data;
+package study.qa.lessonoop.cards.data;
 
 public class MasterCard extends Card implements ICard {
 

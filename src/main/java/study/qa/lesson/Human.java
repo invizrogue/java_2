@@ -1,4 +1,4 @@
-package study.qa;
+package study.qa.lesson;
 
 public class Human {
     private String name;
